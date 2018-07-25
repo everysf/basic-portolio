@@ -234,3 +234,8 @@ p {
 	max-width: 50px;
 	margin: 15px 0;
 }
+
+p {
+	line-height: 20px;
+
+}
