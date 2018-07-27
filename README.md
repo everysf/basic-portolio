@@ -10,5 +10,5 @@ Kevin Macaraeg is an early product designer in San Francisco, CA. His website wa
 # Learning Points
 Objective: Learn HTML5. Use CSS to style the page
 # Author
-[Kevin Macaraeg](https://everysf.github.io/basic-portolio/)
+[Kevin Macaraeg](https://github.com/everysf)
 # License

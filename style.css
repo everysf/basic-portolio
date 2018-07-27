@@ -1,241 +1,207 @@
-
-
 body {
-	font-family: big caslon;
-	margin: 0;
-	color: #595959;
-}
-h3 {
-	font-size: 10px;
-	letter-spacing: .5px;
-	margin: 0px;
-}
-
-.navigate {
-	margin: auto;
-	display: flex;
-	align-content: space-around;
-	width: 100%;
-	padding-top: 60px;
-	max-width: 460px;
+    margin: 0;
+    font-family: helvetica;
+    background-color:#E3F2FD;
 }
 
 .navLink {
-	padding: 0 40px;
+    font-size: 16px;
+    margin: 23px 2px;
+    padding: 3px 15px;
+    float: right;
 }
 
-.navLinkAlt {
-	padding: 20px 15px;
+.navigate {
+    display: block;
+    background-color: white;
+    border-bottom: 5px solid rgba(64, 67, 78, .3);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.mainHead {
+    padding: 20px;
+    font-size: 30px;
+    float: left;
+    background-color: #DB5461;
+    font-style: italic;
+    color: white;
 }
 
 a {
-	color: black;
-	text-decoration: none;
-	transition: text-decoration 2s;
+    color: black;
+    text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+    color: #DB5461;
 }
+
 .navBox {
-	display: flex;
-	margin: auto;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.landingText {
-	text-align: center;
-	letter-spacing: 1px;
-	line-height: 33px;
-	font-size: 24px;
+.content {
+    max-width: 852px;
+    padding: 20px;
+    background-color: white;
+    margin: 40px auto 130px;
+    border-left: 5px solid #40434E;
 }
 
-.landingQuote {
-	margin: 40px auto;
-}
-
-#landingImg {
-	max-width: 779px;
-	width: 100%;
-	height: 360px;
-	margin: 0 auto;
-	background-image: url(img/palm2.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.landingImage {
-	margin: 20px auto;
-	display: flex;
-}
-
-img {
-	height: auto;
-	max-width: 100%;
+.contentSm {
+    max-width: 605px;
+    padding: 20px;
+    background-color: white;
+    margin: 40px auto 130px;
+    border-left: 5px solid #40434E;
 }
 
 .aboutParagraph {
-	
+    padding-left: 20px;
 }
 
-.aboutContainer {
-	display: flex;
-	margin: 0 auto;
+.palmEdit {
+    height: 252px;
+    width: 280px;
 }
 
-.aboutBox2 {
-	max-width: 540px;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-.big1 {
-	font-size: 100px;
-	font-family: helvetica;
-	margin: -20px 0 0 0;
+.contentRow {
+    display: flex;
+    margin-bottom: 28px;
 }
 
-.aboutBox1 {
-	max-width: 140px;
+p {
+    font-size: 16px;
+    line-height: 29px;
 }
 
-.aboutContaidner {
-	
+.navLink1 {
+    border-left: 1px solid #40434E;
+}
+
+.navLink2 {
+    border-left: 1px solid #40434E;
+    border-right: 1px solid #40434E;
+}
+
+.navLink3 {
+    border-right: 1px solid #40434E;
 }
 
 h2 {
-	margin: 0;
-}
-
-.landingAbout {
-	display: flex;
-	margin: 60px;
-}
-
-.footerText {
-	text-align: center;
+    font-size: 24px;
+    padding-bottom: 13px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
 }
 
 .footer {
-	background-image: url(img/footTile.png);
-	background-repeat: repeat;
-	padding: 20px;
+    background-color: #40434E;
+    border-top: 5px solid #DB5461;
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-p {
-	margin: 0;
+.footerText {
+    text-align: center;
+    color: white;
 }
 
-.aboutHead {
-	margin-bottom: 10px;
+.notResponsible {
+    font-size: 5px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 3px;
 }
 
-.homeLink {
-	margin: 0;
-	padding: 20px;
+.sm {
+    max-width: 650px;
 }
 
-.portfolioTile {
-	height: 279px;
-	width: 380px;
-	background-color: gray;
-	margin: 10px;
+.thumbnail {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
-.tileRow {
-	display: flex;
-	margin: 0 auto;
+.thumbnailType {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 250px;
 }
 
-#palm01 {
-	background-image: url(img/palm6.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+#thumbnail1 {
+    background-image: url(img/palm2.jpg);
+    margin-bottom: 20px;
 }
 
-#palm02 {
-	background-image: url(img/palm4.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+#thumbnail2 {
+    background-image: url(img/palm3.jpg);
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-#palm03 {
-	background-image: url(img/palm8.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+#thumbnail3 {
+    background-image: url(img/palm4.jpg);
+    margin-bottom: 20px;
 }
 
-#palm04 {
-	background-image: url(img/palm7.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+#thumbnail4 {
+    background-image: url(img/palm5.jpg);
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-.portfolioTiles {
+#thumbnail5 {
+    background-image: url(img/palm.jpg);
 }
 
-.tileContainer {
-	margin: 0 auto;
+.thumbnailRow {
+    display: flex;
 }
 
-.tileSubtext {
-	background-color: white;
-	padding:5px 20px;
-	text-align: right;
-	max-width: 50px;
-	float: right;
-	font-size: 8px;
+input {
+    width: 100%;
+    margin: 5px 0;
 }
 
-.contactBox {
-	background-color: white;
-	width: 380px;
-	margin: 100px auto;
-	padding: 40px 20px;
+.inputChunk {
+    margin: 5px 0 10px;
 }
 
-.contactWrap {
-	display: flex;
-	background-image: url(img/palm1.jpg);
-	background-size: cover;
-	background-repeat: no;
+.submit {
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #DB5461;
+    text-align: center;
 }
 
-.contactHeader {
-	margin: 0
+.button {
+    width: 75px;
+    margin-top: 15px;
 }
 
-.contactNav {
-	padding-right: 10px;
-}
-
-.contactField {
-	margin: 10px auto 5px;
-}
-
-.contactForm {
-	background-color: #D7D7D7;
-	font-size: 8px;
-	padding: 5px;
-}
-
-.contactForm2 {
-	background-color: #D7D7D7;
-	font-size: 8px;
-	padding: 5px 5px 90px 5px;
-}
-
-.btn {
-	font-size: 8px;
-	font-family: helvetica neue;
-	border: solid black .5px;
-	padding: 5px;
-	text-align: center;
-}
-
-.btnWrap {
-	max-width: 50px;
-	margin: 15px 0;
-}
-
-p {
-	line-height: 20px;
-
+.messageBox {
+    height: 100px;
 }
